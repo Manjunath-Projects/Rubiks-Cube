@@ -1,4 +1,3 @@
-// === getCubeSvg() ===
 function getCubeSvg(colorString) {
   const container = document.getElementById('cube-display');
   const faceSize = 9;
