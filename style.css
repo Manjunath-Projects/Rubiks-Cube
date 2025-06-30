@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+#controls {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+#cube-display {
+  margin-top: 30px;
+}
+
+
+.cube {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.face {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 30px);
+  grid-template-rows: repeat(3, 30px);
+  gap: 2px;
+}
+
+.sticker {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #333;
+}
+
+.w { background: white; }
+.y { background: yellow; }
+.r { background: red; }
+.o { background: orange; }
+.b { background: blue; }
+.g { background: green; }
